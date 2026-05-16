@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
-fetch("http://localhost:5000/api/projects")
+fetch("https://portfolio-backend-fm0n.onrender.com/api/projects")
     .then(res => res.json())
     .then(data => {
         const projectContainer = document.querySelector("#projects .cards");
