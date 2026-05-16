@@ -667,25 +667,8 @@ h2 {
 
 /* Buttons */
 
-.project-buttons {
-    display: flex;
-    gap: 15px;
-}
 
-.project-btn {
-    text-decoration: none;
-    background: #00ff99;
-    color: black;
-    padding: 12px 20px;
-    border-radius: 25px;
-    font-weight: bold;
-    transition: 0.3s ease;
-}
 
-.project-btn:hover {
-    transform: scale(1.08);
-    box-shadow: 0 0 20px #00ff99;
-}
 
 /* Arrow Button */
 
